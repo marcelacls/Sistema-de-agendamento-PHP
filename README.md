@@ -3,15 +3,11 @@
 
 Sistema simples de agendamento de consultas para clínica odontológica, desenvolvido com PHP puro, sem uso de frameworks.
 
----
-
 ## Sobre o Projeto
 
 Este sistema tem como objetivo organizar a agenda de uma clínica dentária, permitindo o cadastro de pacientes e o agendamento de consultas de forma prática, evitando conflitos de horários.
 
 O sistema simula o funcionamento de uma recepção, onde é possível verificar horários disponíveis, cadastrar pacientes e registrar atendimentos.
-
----
 
 ## Tecnologias Utilizadas
 
@@ -21,7 +17,7 @@ O sistema simula o funcionamento de uma recepção, onde é possível verificar 
 * CSS
 * JavaScript
 
----
+
 
 ## Funcionalidades
 
@@ -32,7 +28,7 @@ O sistema simula o funcionamento de uma recepção, onde é possível verificar 
 * Listagem de consultas
 * Cancelamento e edição de agendamentos
 
----
+
 
 ## Estrutura do Banco de Dados
 
@@ -42,7 +38,7 @@ O sistema possui três tabelas principais:
 * dentistas: armazena os profissionais e suas especialidades
 * consultas: registra os agendamentos realizados
 
----
+
 
 ## Fluxo do Sistema
 
@@ -52,7 +48,7 @@ O sistema possui três tabelas principais:
 4. Se disponível, o agendamento é confirmado
 5. Caso contrário, o sistema solicita a escolha de outro horário
 
----
+
 
 ## Estrutura do Projeto
 
@@ -62,7 +58,6 @@ O sistema possui três tabelas principais:
 * agendamento.php
 * listagem.php
 
----
 
 ## Objetivo
 
@@ -73,14 +68,13 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 * Organização de código em PHP puro
 * Validações de regras de negócio
 
----
+
 
 ## Status do Projeto
 
-Em desenvolvimento
+Começando - Em desenvolvimento
 
----
 
-## Autora
+
 
 Marcela Cabral
