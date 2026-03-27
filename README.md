@@ -68,6 +68,35 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 * Organização de código em PHP puro
 * Validações de regras de negócio
 
+## Diagrama de Classes
+
+```mermaid
+classDiagram
+
+class Paciente {
+  +int id
+  +string nome
+  +string telefone
+  +string email
+}
+
+class Dentista {
+  +int id
+  +string nome
+  +string especialidade
+}
+
+class Consulta {
+  +int id
+  +date data
+  +time horario
+  +string status
+}
+
+Paciente "1" --> "0..*" Consulta : realiza
+Dentista "1" --> "0..*" Consulta : atende
+```
+
 
 
 ## Status do Projeto
