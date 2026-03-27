@@ -74,30 +74,25 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 classDiagram
 
 class Paciente {
-  +int id
-  +string nome
-  +string telefone
-  +string email
+  id : int
+  nome : string
+  telefone : string
 }
 
 class Dentista {
-  +int id
-  +string nome
-  +string especialidade
+  id : int
+  nome : string
 }
 
 class Consulta {
-  +int id
-  +date data
-  +time horario
-  +string status
+  id : int
+  data : date
+  horario : time
 }
 
-Paciente "1" --> "0..*" Consulta : realiza
-Dentista "1" --> "0..*" Consulta : atende
+Paciente --> Consulta
+Dentista --> Consulta
 ```
-
-
 
 ## Status do Projeto
 
