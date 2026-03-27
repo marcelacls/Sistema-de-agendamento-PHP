@@ -1,2 +1,86 @@
-# Sistema-de-agendamento-PHP
-Projeto de desenvolvimento de um sistema simples de agendamento de consultas para uma clínica dentária, utilizando PHP sem o uso de frameworks.
+
+# Sistema de Agendamento - Clínica Dentária
+
+Sistema simples de agendamento de consultas para clínica odontológica, desenvolvido com PHP puro, sem uso de frameworks.
+
+---
+
+## Sobre o Projeto
+
+Este sistema tem como objetivo organizar a agenda de uma clínica dentária, permitindo o cadastro de pacientes e o agendamento de consultas de forma prática, evitando conflitos de horários.
+
+O sistema simula o funcionamento de uma recepção, onde é possível verificar horários disponíveis, cadastrar pacientes e registrar atendimentos.
+
+---
+
+## Tecnologias Utilizadas
+
+* PHP
+* MySQL
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## Funcionalidades
+
+* Cadastro de pacientes
+* Cadastro de dentistas
+* Agendamento de consultas
+* Validação de conflitos de horários
+* Listagem de consultas
+* Cancelamento e edição de agendamentos
+
+---
+
+## Estrutura do Banco de Dados
+
+O sistema possui três tabelas principais:
+
+* pacientes: armazena os dados dos pacientes
+* dentistas: armazena os profissionais e suas especialidades
+* consultas: registra os agendamentos realizados
+
+---
+
+## Fluxo do Sistema
+
+1. O paciente é cadastrado, caso ainda não exista
+2. A recepcionista seleciona o dentista, data e horário
+3. O sistema verifica se o horário está disponível
+4. Se disponível, o agendamento é confirmado
+5. Caso contrário, o sistema solicita a escolha de outro horário
+
+---
+
+## Estrutura do Projeto
+
+* conexao.php: responsável pela conexão com o banco de dados
+* cadastro_paciente.php
+* cadastro_dentista.php
+* agendamento.php
+* listagem.php
+
+---
+
+## Objetivo
+
+Este projeto foi desenvolvido com o objetivo de praticar:
+
+* Operações CRUD
+* Integração com banco de dados
+* Organização de código em PHP puro
+* Validações de regras de negócio
+
+---
+
+## Status do Projeto
+
+Em desenvolvimento
+
+---
+
+## Autora
+
+Marcela Cabral
