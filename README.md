@@ -74,7 +74,7 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 classDiagram
 
 class Paciente {
-  - id_paciente : int
+  - id_paciente : int (primary key)
   - nome_paciente : string
   - telefone : string
   - email : string
@@ -82,13 +82,13 @@ class Paciente {
 }
 
 class Dentista {
-  - id_dentista : int
+  - id_dentista : int (primary key)
   - nome_dentista : string
   - especialidade : string
 }
 
 class Consulta {
-  - id_consulta : int
+  - id_consulta : int (primary key)
   - data_consulta : date
   - horario_consulta : time
   - status_consulta : string
