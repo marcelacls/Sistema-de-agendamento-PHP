@@ -54,7 +54,7 @@ O sistema possui três tabelas principais:
 * Conexao.php: responsável pela conexão com o banco de dados.
 * index.php: arquivo principal que inicia o sistema.
   
-## Pastas do Projeto
+### Pastas do Projeto
 
 ## controllers/: contém os controladores responsáveis pela lógica do sistema.
 * ConsultaController.php
