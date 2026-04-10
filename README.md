@@ -72,10 +72,9 @@ O sistema possui três tabelas principais:
 * salvar_paciente.php
 
 #### views/: contém as telas/interfaces do sistema.
-* public/css/: arquivos de estilização do sistema.
-* style.css
+* public/css/style.css
   
-#### dbo/: contém o banco de dados do projeto.
+#### dbo/: contém o banco de dados do projeto que será passado para SQL
 * meu banco de dados
 
 ## Objetivo
