@@ -51,13 +51,32 @@ O sistema possui três tabelas principais:
 
 
 ## Estrutura do Projeto
+* Conexao.php: responsável pela conexão com o banco de dados.
+* index.php: arquivo principal que inicia o sistema.
+  
+## Pastas do Projeto
 
-* conexao.php: responsável pela conexão com o banco de dados
-* cadastro_paciente.php
-* cadastro_dentista.php
-* agendamento.php
-* listagem.php
+## controllers/: contém os controladores responsáveis pela lógica do sistema.
+* ConsultaController.php
+* DentistaController.php
+* PacienteController.php
 
+## models/: contém as classes de modelo, responsáveis pela manipulação dos dados.
+* Consulta.php
+* Dentista.php
+* Paciente.php
+  
+## routes/: contém as rotas para salvar os dados no sistema.
+* salvar_consulta.php
+* salvar_dentista.php
+* salvar_paciente.php
+
+## views/: contém as telas/interfaces do sistema.
+* public/css/: arquivos de estilização do sistema.
+* style.css
+  
+## dbo/: contém o banco de dados do projeto.
+* meu banco de dados
 
 ## Objetivo
 
